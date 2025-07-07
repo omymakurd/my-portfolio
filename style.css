@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+main{
+   
+    margin: 0 auto;
+}
+header{
+    border-bottom: 1px solid #f9a825;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+
+}
+header , nav,.rightsidheader{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+    padding: 5px;
+   
+}
+nav{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.hombtn{
+    width: 180px;
+    height: 50px;
+    background-color: #f9a825;
+    padding: 10px;
+    border-radius: 10px  ;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.hombtnnon{
+    width: 180px;
+    color: #f9a825;
+    padding: 10px;
+    border-radius: 10px  ;
+    font-size: 16px;
+    border: 2px solid #f9a825 ;
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+h1{
+     font-size: 60px;
+     margin-bottom: 20px;
+   
+}
+.logo{
+    height: 100px;
+}
+.submain{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 40px;
+    
+}
+aside{
+    margin-top: 50px;
+    
+}
+.omyma{
+     color: #f9a825;
+}
+.description{
+    line-height: 3;
+    width: 800px;
+    
+}
+.buttos{
+    display: flex;
+
+}
+section{
+    width: 50%;
+}
+.mainphoto{
+    width: 80%;
+    height: 800px;
+}
+i img{
+    
+    width: 30px;
+    height: 30px;
+   
+}
+.icons{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+i{
+     
+    margin: 5px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #261d0c;
+}
+.mainabout{
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+   
+    
+    
+}
+h4{
+    font-size: 16px;
+    margin-bottom:  10px;
+}
+.shortbio{
+    width: 60%;
+    border: 1px solid #f9a825 ;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    line-height: 2;
+    text-align: left;
+    padding: 20px 20px 20px 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    
+
+
+}
+.bioimgcont{
+    display: flex;
+}
+h2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.h2skills{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.TechnicalSkills ,.featuredprojects{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.TechnicalSkillsitem{
+    width: 250px;
+    border: 1px solid #f9a825 ;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    line-height: 2;
+    text-align: left;
+    padding: 20px 20px 20px 10px;
+    margin-bottom: 20px;
+   
+}
+.TechnicalSkillsheder{
+    display:flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+.skillsitems{
+    border-radius: 25px;
+    color: #f9a825;
+    background-color: #312817;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+.skilsex{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.projects-item{
+    width: 400px;
+    border: 1px solid #f9a825 ;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    line-height: 2;
+    text-align: left;
+    padding: 20px 20px 20px 10px;
+    margin-bottom: 20px;
+}
+.projectimg{
+    width: 100%;
+    height: 200px;
+}
+.projectdesc{
+    padding: 10px;
+}
+.gray{
+    color: #949aa5;
+}
+.prject-tec{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+.project-tecicon{
+    border-radius: 10px;
+    color: #f9a825;
+    background-color: #312817;
+    padding: 10px;
+
+}
+.contactmain{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width:80%;
+    margin: 0 auto;
+    
+}
+.GetInTouch{
+    width: 50%;
+    text-align: left;
+
+}
+.sendmeseage{
+    width: 45%;
+    border: 1px solid #f9a825 ;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    line-height: 2;
+    padding: 20px 20px 20px 10px;
+    margin-bottom: 20px;
+}
+.h1style
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contactwayitems{
+    margin-top: 10px;
+    display: flex ;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.iconcontact{
+    width: 60px;
+    height: 60px;
+}
+.iconsocial{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.icso{
+    
+    border-radius: 25%;
+    background-color: #261d0c;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.sociallogo{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+.sendmeseage{
+    text-align: left;
+    padding: 20px;
+    
+}
+input ,textarea{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #f9a825;
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 10px;
+}
+.flexinputs {
+    display: flex;
+    flex-direction: column;
+   
+}
+textarea{
+    height: 200px;
+}
+.sendmessage{
+     width: 526px;
+    height: 50px;
+    background-color: #f9a825;
+    padding: 10px;
+    border-radius: 10px  ;
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
